@@ -66,7 +66,5 @@ The client waits for an acknowledgment from the server after each bit is sent, e
 - Communication is one-way (client → server), but the server sends signals back to confirm each bit, ensuring reliability for large messages (70k+ words tested)
 - The server runs indefinitely and processes one client message at a time
 
-## Norminette Compliance
-
 > ⚠️ **Norminette Compliance**  
 > This project follows the [42 Norminette](https://github.com/42School/norminette) — a strict C coding style guide. It enforces rules like max 25 lines per function, separate declarations/assignments, and consistent formatting. Code is written for readability and structure over brevity.
